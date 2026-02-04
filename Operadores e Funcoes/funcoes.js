@@ -28,8 +28,8 @@ console.log(somar(5,3));
 console.log("EXERCICIOS FUNÇÕES")
 //7. Criar função que calcula o IMC = peso/(alt*alt)
 console.log("IMC")
-let peso = 70
-let altura = 1.80
+let peso = prompt("Digite seu peso em kg:");
+let altura = prompt("Digite sua altura em metros:");
 
 function IMC(peso, altura) {
     return peso/(altura*altura);
@@ -39,7 +39,7 @@ console.log("O imc de uma pessoa com " + peso + "kg e " + altura + " de altura �
 //8. Criar função que verifica se o número é par ou ímpar
 console.log("PAR E IMPAR")
 
-let num = 7;
+let num = prompt("Digite um número:");
 
 function parImpar(num) {
     if (num % 2 === 0) {
