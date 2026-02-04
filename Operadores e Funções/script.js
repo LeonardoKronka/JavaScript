@@ -43,3 +43,41 @@ console.log("Olá, JavaScript!");
         console.log("x === y: " + (x === y ));
         console.log("x != y: " + (x != y));
         console.log("x !== y: " + (x !== y));
+
+
+
+
+// EXERCICIOS
+// 3.Comparar idade para verificar se é maior de idade
+        console.log("COMPARAR IDADE");
+        //function verificarMaioridade(idade) {
+            //if (idade >= 18) {
+                //return "Maior de idade";
+            //} else {
+                //return "Menor de idade";
+            //}
+        //}
+        //console.log(verificarMaioridade(20));
+        //console.log(verificarMaioridade(16));
+
+        let idade = 20;
+
+        if (idade >= 18) {
+            console.log("Maior de idade");
+        }else {
+            console.log("Menor de idade");
+        }
+
+// 4. Comparar dois números e mostrar qual é o maior
+        console.log("COMPARAR DOIS NÚMEROS");
+
+        let numA = 15;
+        let numB = 25;
+
+        if (numA > numB) {
+            console.log(numA + " é maior que " + numB)
+        }else if (numA < numB) {
+            console.log(numB + " é maior que " + numA)
+        }else {
+            console.log(numA + " é igual a " + numB)
+        }
