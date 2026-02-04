@@ -48,6 +48,7 @@ console.log("Olá, JavaScript!");
 
 
 // EXERCICIOS
+console.log("EXERCÍCIOS");
 // 3.Comparar idade para verificar se é maior de idade
         console.log("COMPARAR IDADE");
         //function verificarMaioridade(idade) {
@@ -81,3 +82,49 @@ console.log("Olá, JavaScript!");
         }else {
             console.log(numA + " é igual a " + numB)
         }
+
+
+// Operadores Lógicos
+        console.log("OPERADORES LÓGICOS");
+        let idadePessoa = 20;
+        let temCarteira = true;
+        console.log("&& (E lógico)");
+        console.log(idadePessoa >= 18 && temCarteira);
+
+
+        let chovendo = false;
+        let guardaChuva = true;
+        console.log("|| (OU lógico)");
+        console.log(chovendo || guardaChuva);
+
+
+        let ligado = false;
+        console.log("! (NÃO lógico)");
+        console.log(!ligado); // True
+
+
+        // 5. Verificar se um aluno foi aprovado(nota >= 7 e a frequencia >= 75%)
+        console.log("VERIFICAR APROVAÇÃO DO ALUNO");
+        let nota = 8;
+        let frequencia = 80;
+
+        if (nota >= 7 && frequencia >= 75) {
+            console.log("Aluno aprovado");
+        } else {
+            console.log("Aluno reprovado");
+        }
+
+
+        // 6. Verificar acesso com login ou token
+        console.log("VERIFICAR ACESSO");
+        let login = true;
+        let token = false;
+
+        if (login || token) {
+            console.log("Acesso concedido");
+        } else {
+            console.log("Acesso negado");
+        }
+
+
+        
