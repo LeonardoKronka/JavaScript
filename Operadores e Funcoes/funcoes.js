@@ -50,3 +50,7 @@ function parImpar(num) {
 }
 
 console.log("O número " + num + " é: " + parImpar(num));
+
+
+
+
