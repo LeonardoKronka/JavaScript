@@ -51,7 +51,7 @@ calcularOperacoes(7.5);
 //String
 console.log("-----------------------------------")
 console.log("---------FUNÇÕES DE STRING---------")
-console.log("-----------------------------------")-
+console.log("-----------------------------------")
 
 function analisarTexto(texto) {
     console.log("Tamanho do texto: " + texto.length);
@@ -68,8 +68,8 @@ function verificarFrase(frase) {
 verificarFrase("Eu estudo JavaScript!");
 
 
-// function concatena(nome, curso) {
-//     return "Aluno: " + nome + " | Curso: " + curso;
-// }
+function concatena(nome, curso) {
+    return "Aluno: " + nome + " | Curso: " + curso;
+}
 
-// console.log(concatena("José", "Front-end"));
+console.log(concatena("José", "Front-end"));
