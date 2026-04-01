@@ -31,7 +31,7 @@ let contadorCliques = 0;
 let contadorElemento = document.getElementById("contadorCliques");
 let botaoContar = document.getElementById("clique");
 
-botaoContar.addEventListener("click", function () {
+botaoContar.addEventListener("click", function () { 
     contadorCliques++;
     contadorElemento.textContent = "Cliques: " + contadorCliques;
 });
